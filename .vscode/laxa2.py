@@ -11,6 +11,17 @@ elif a == 0:
 elif a < 0:
     print("negativt")
 
+# Uppgift 3
+
+a = float(input("Valfritt tal nummer 1"))
+
+b = float(input("Valfritt tal nummer 2"))
+
+if a > b:
+    print("Tal nummer 1 är störst")
+
+elif b > a:
+    print("Tal nummer 2 är störst")
 
 # Uppgift 4
 
@@ -21,7 +32,7 @@ a = float(input("hur många grader"))
 if a < 0:
     print("ej definerat")
 
-if a == 90:
+elif a == 90:
     print("rät vinkel")
 
 elif a > 90 and a < 180:
@@ -43,20 +54,13 @@ elif a == 360:
     # Uppgift 5
     
 
-    r = float(input("tal på radien"))
+r = float(input("tal på radien"))
 
-    if r > 0
-        c = r*2*3.14
+if a == 3.14*r*r:
 
-    elif r < 0
+elif c == r*2*3.14:
 
-    if r < 0 
-        print("ej definerat")
+elif r < 0:
+    print("ej definerat")
     
-    else r > 0
-        print("Radien är possetiv")
-
-    
- 
-
-    print("cirkens har omkretsen {cirkens omkrets}")
+print("cirkens har omkretsen {c} och arean är {a}")
