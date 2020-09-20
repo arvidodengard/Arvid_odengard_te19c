@@ -1,25 +1,4 @@
-.container-1 {
-
-
-    justify-content: space-around
-    border1px #ccc solid;
-    padding:10px;
-    background-color:aqua;
-    
-    }
-
-.box-1 {
-
-}
-.box-2 {
-
-
-}
-.box-3 {
-
-}
-
-.box-2-container {
-background-color: aqua;
-
+body
+{   background-image: url("pics.bmp/sol\ förmörkelse.jpg"
+    background-size: cover;)
 }
