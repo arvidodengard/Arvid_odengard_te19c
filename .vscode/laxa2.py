@@ -51,16 +51,24 @@ elif a == 360:
     print("hel vinkel")
 
     
-    # Uppgift 5
+    # Uppgift 6
     
 
-r = float(input("tal på radien"))
+a = float(input("hur många grader"))
 
-if a == 3.14*r*r:
+b = float(input("hur många grader"))
 
-elif c == r*2*3.14:
+c = float(input("hur många grader"))
 
-elif r < 0:
-    print("ej definerat")
+if a == 90:
+    print("vinkel a är rät")
+
+elif b == 90:
+    print("vinkel b är rät")
+
+elif c == 90:
+    print("vinkel c är rät")
+
+elif a != 90:
+ print("har ingen rät vinkel")
     
-print("cirkens har omkretsen {c} och arean är {a}")
