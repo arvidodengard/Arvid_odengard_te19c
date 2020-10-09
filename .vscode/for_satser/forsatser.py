@@ -13,10 +13,10 @@ print("\n")
 s = 0 
 for i in range(0,101):
     s += i
-
-# uppgift 4)
 print(f"1.2.3+...+99+100 är {s}")
 print("\n")
+# uppgift 4)
+
 s = 0 
 for i in range(0,100,2):
     s += i
