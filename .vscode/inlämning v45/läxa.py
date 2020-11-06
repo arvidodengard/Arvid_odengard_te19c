@@ -65,3 +65,16 @@ plt.show()
 
 # ju större radie = mer kast utanför, fler kast följer samma mönster 
 # med hur många pillar som hamnar innanför och utanför.
+
+# uppgift 2 (a)
+
+for i in range(1,101):
+    print(i, end =" ")
+
+# uppgift b
+
+for i in range(1,101):
+    print(i, end =" ")
+
+    if i = (5,10,15,20,25,30)
+        print("burr")
