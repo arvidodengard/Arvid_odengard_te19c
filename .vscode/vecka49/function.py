@@ -1,4 +1,3 @@
-'''
 # Uppgift 1
 def artimetiskt_summa(a, n, p):
     summa = 0
@@ -81,7 +80,7 @@ def artimetiskt_summa(a, n, p):
 
 p = 2
 print(artimetiskt_summa(a, n, p))
-'''
+
 # Uppgift 3
 tal = int(input("antal pengar:"))
 tusenlappar = 0
