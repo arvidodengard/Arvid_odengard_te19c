@@ -112,4 +112,5 @@ enkrona = 0
 while tal > 0.9999999:
     enkrona = enkrona +1 
     tal = tal -0.9999999
+
 print(tusenlappar,tvåhundralappar,tjugolappar,tia,femma,enkrona)
