@@ -19,7 +19,7 @@ print (f"1+3+5... = {summa}")
 
 # Uppgift 5 
 
-import random
+import random as rnd
 
 tal = random.randint(1,101)
 g = -1
