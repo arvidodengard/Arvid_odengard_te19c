@@ -69,10 +69,14 @@ with open ("pokemonlista.txt", "r") as f1:
         pokedex[(pokemon)] = [index, typ]
     
 
-    nummer = (pokedex["indata"] [0])
-    talang = (pokedex["indata"] [1])
+    nummer = (pokedex[indata] [0])
+    talang = (pokedex[indata] [1])
 
     print (f"typ: {talang}, index: {nummer}")
+
+    
+
+
 
 
 
